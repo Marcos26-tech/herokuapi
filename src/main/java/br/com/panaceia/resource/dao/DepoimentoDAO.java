@@ -29,59 +29,95 @@ public class DepoimentoDAO {
 			
 			depo = new DepoimentoTO();
 			depo.setId(3);
+			depo.setIdComunidade(1);
+			depo.setTitulo("Francine Leal");
+			depo.setComentario("Adoro essa comunidade me faz muito bem.");
+			depoimento.add(depo);
+			
+			depo = new DepoimentoTO();
+			depo.setId(4);
 			depo.setIdComunidade(2);
 			depo.setTitulo("Radia Perlman");
 			depo.setComentario("É muito legal como a cultura das empresas está mudando <3.");
 			depoimento.add(depo);
 			
 			depo = new DepoimentoTO();
-			depo.setId(4);
+			depo.setId(5);
 			depo.setIdComunidade(2);
 			depo.setTitulo("Carol Shaw");
 			depo.setComentario("Por mais iniciativas que mostrem cada vez o nosso valor.");
 			depoimento.add(depo);
 			
 			depo = new DepoimentoTO();
-			depo.setId(5);
+			depo.setId(6);
+			depo.setIdComunidade(2);
+			depo.setTitulo("Akemi");
+			depo.setComentario("Lugar de mulher é na tecnologia sim! e em qualquer lugar em que se sentir confortável para estar e quiser.");
+			depoimento.add(depo);
+			
+			depo = new DepoimentoTO();
+			depo.setId(7);
 			depo.setIdComunidade(3);
 			depo.setTitulo("Karen Sparck Jones");
 			depo.setComentario("Eu amo minha familia, amo cuidar deles só preciso ser mais compreendida.");
 			depoimento.add(depo);
 			
 			depo = new DepoimentoTO();
-			depo.setId(6);
+			depo.setId(8);
 			depo.setIdComunidade(3);
 			depo.setTitulo("Grace Hopper");
 			depo.setComentario("Sempre que preciso desabafar, ou pedir conselho aqui encontro um ambiente seguro para fazer isso.");
 			depoimento.add(depo);
 			
 			depo = new DepoimentoTO();
-			depo.setId(7);
+			depo.setId(9);
+			depo.setIdComunidade(3);
+			depo.setTitulo("Hope");
+			depo.setComentario("Os conselho que aqui encontro em um ambiente seguro, estão mudando a minha vida.");
+			depoimento.add(depo);
+			
+			depo = new DepoimentoTO();
+			depo.setId(10);
 			depo.setIdComunidade(4);
 			depo.setTitulo("Jean Sammet");
 			depo.setComentario("Sempre que quero conversar com alguem encontro aqui esse ponto de apoio para falar das coisa que gosto de fazer mas que me deixam insegura.");
 			depoimento.add(depo);
 			
 			depo = new DepoimentoTO();
-			depo.setId(8);
+			depo.setId(11);
 			depo.setIdComunidade(4);
 			depo.setTitulo("Mary Kenneth");
-			depo.setComentario("Todos os dias quando acordo, não tenho mais o que passou mas tenho muito tempo temos todo tempo do mundo.");
+			depo.setComentario("Todos os dias quando acordo, não tenho mais o que passou, mas tenho muito tempo, temos todo tempo do mundo.");
 			depoimento.add(depo);
 			
 			depo = new DepoimentoTO();
-			depo.setId(9);
+			depo.setId(12);
+			depo.setIdComunidade(4);
+			depo.setTitulo("Catarina");
+			depo.setComentario("Vou ensinar aqui um novo jogo, ele se chama amar sem medidas.");
+			depoimento.add(depo);
+			
+			depo = new DepoimentoTO();
+			depo.setId(13);
 			depo.setIdComunidade(5);
 			depo.setTitulo("Adele Goldstine");
 			depo.setComentario("Antes de encontrar aqui esse refugio ficava triste por não ter com quem desabafar sobre o que estou pensando e a tempestade que invade minha mente.");
 			depoimento.add(depo);
 			
 			depo = new DepoimentoTO();
-			depo.setId(10);
+			depo.setId(14);
 			depo.setIdComunidade(5);
 			depo.setTitulo("Fran Bilas");
 			depo.setComentario("Sempre que posso entrar aqui criando meus depoimentos para contribuir com todas vocês");
 			depoimento.add(depo);
+			
+			depo = new DepoimentoTO();
+			depo.setId(15);
+			depo.setIdComunidade(5);
+			depo.setTitulo("Fernanda Lima");
+			depo.setComentario("A quem o tempo muito ensinou. Ensinou a amar a vida e não desistir da luta, recomeçar na derrota, renunciar a palavras e pensamentos negativos.");
+			depoimento.add(depo);
+			
 			
 		}
 	}

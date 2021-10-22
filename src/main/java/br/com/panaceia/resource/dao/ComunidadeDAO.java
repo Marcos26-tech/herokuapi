@@ -15,19 +15,19 @@ public class ComunidadeDAO {
 			ComunidadeTO com = new ComunidadeTO();
 			com.setId(1);
 			com.setNome("Vida mais saudável");
-			com.setDescricao("Comunidade feita para quem se cuida");
+			com.setDescricao("Comunidade feita para quem se cuida ou quer aprender a importãncia disso na vida das mulheres");
 			comunidade.add(com);
 			
 			com = new ComunidadeTO();
 			com.setId(2);
 			com.setNome("Tech Women");
-			com.setDescricao("Comunidade feita para quem curte tecnologia");
+			com.setDescricao("Comunidade criada por mulheres para mostrar o quando podemos sermos fortes em qualquer área");
 			comunidade.add(com);
 			
 			com = new ComunidadeTO();
 			com.setId(3);
 			com.setNome("Família em 1 Lugar");
-			com.setDescricao("Aqui é só família");
+			com.setDescricao("Amar o que nos faz bem é o que faz ir sempre mais além!");
 			comunidade.add(com);
 			
 			com = new ComunidadeTO();
@@ -39,7 +39,7 @@ public class ComunidadeDAO {
 			com = new ComunidadeTO();
 			com.setId(5);
 			com.setNome("Clube da Luta");
-			com.setDescricao("A primeira regra do Clube da Lut...");
+			com.setDescricao("A primeira regra do Clube da Luta é nunca desistir!");
 			comunidade.add(com);
 		}
 	}
